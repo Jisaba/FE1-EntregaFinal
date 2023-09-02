@@ -74,3 +74,50 @@ h1{
     height: 88px;
     font-size: 36px;
 }
+
+/*Elementos del footer - Mobile first*/
+
+footer{
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.mapa_sitio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 7em;
+    align-content: space-around;
+    width: 80vw;
+    line-height: 28px;
+}
+
+.red_social{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+footer div{
+    padding-bottom: 50px;
+}
+
+.copyright{color: #8C8C94;}
+
+.suscription{
+    padding-top: 40px;
+}
+
+.suscription form input{
+    height: 42px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.suscription form button{
+    width: 63px;
+}
