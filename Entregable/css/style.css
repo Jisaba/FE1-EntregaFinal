@@ -51,16 +51,17 @@ button{
 }
 
 /*Boby*/
+
 /*Sección 1*/
 
-.titulo{
+.seccion1{
     padding: 100px 180px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.titulo div{
+.seccion1 div{
     width: 450px;
     height: 400px;  
     text-align: right;
@@ -75,7 +76,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.titulo div h4{
+.seccion1 div h4{
     font-size: 1rem;
     line-height: 26px;
     margin-bottom: 20px;
@@ -83,7 +84,7 @@ h1{
 
 /*Sección 2*/
 
-.pie1{
+.seccion2{
     background-color: #8B48BF;
     padding: 40px 200px;
     display: flex;
@@ -91,16 +92,31 @@ h1{
     color: #FFFF;
 }
 
-.pie1 p{
+.seccion2 p{
     width: 450px;
     height: 88px;
     text-align: left;
 }
 
-.pie1 h2{
+.seccion2 h2{
     width: 450px;
     height: 88px;
     font-size: 36px;
+}
+
+/*Sección 3*/
+
+
+
+/*Sección 4*/
+
+
+
+/*Sección 5*/
+
+.seccion5{
+    background-color: #8B48BF;
+
 }
 
 /*Elementos del footer - Mobile first*/
