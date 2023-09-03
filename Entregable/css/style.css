@@ -110,7 +110,54 @@ h1{
 
 /*Sección 4*/
 
+.seccion4{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.seccion4 h2{
+    font-size: 40px;
+}
+
+.articulos{
+    display: flex;
+    margin-top: 75px;
+    position: relative;
+}
+
+.seccion4 div article{
+    height: 254px;
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+}
+
+article h3{
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+article p{
+    padding: 18px 0px;
+}
+
+.rectangulo{
+    background-color: #FAFAFA;
+    height: 219px;
+    width: 445px;
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+}
+
+.seccion4 button{
+    margin: 50px 0px;
+}
 
 /*Sección 5*/
 
@@ -127,7 +174,7 @@ footer{
     color: white;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
 }
 
 footer div{
