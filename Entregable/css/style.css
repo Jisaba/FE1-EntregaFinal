@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+
+/*Header*/
+
 header{
     padding: 65px 165px ;
     display: flex;
@@ -10,35 +13,53 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
+.nav_sitio{
+    list-style: none;
+    float: right;
+}
+
 nav ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
     width: 400px;
 }
-button{
-    background-color: #8B48BF;
-    color: white;
-    width: 134px;
-    height: 44px;
-    border-radius: 50px;
-    cursor: pointer; 
-    border: 1px solid white;
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 5px;
 }
+
 .items-nav{
-    
     text-decoration: none;
     color: black;
 }
+
 .items-nav:hover{
     opacity: 50%;
 }
+
+button{
+    background-color: #8B48BF;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    height: 44px;
+    width: 134px;
+}
+
+/*Boby*/
+/*Sección 1*/
+
 .titulo{
     padding: 100px 180px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .titulo div{
     width: 450px;
     height: 400px;  
@@ -47,16 +68,21 @@ button{
     align-items: center;
     justify-items: right;
 }
+
 h1{
     font-size: 50px;
     line-height: 50px;
     margin-bottom: 20px;
 }
+
 .titulo div h4{
     font-size: 1rem;
     line-height: 26px;
     margin-bottom: 20px;
 }
+
+/*Sección 2*/
+
 .pie1{
     background-color: #8B48BF;
     padding: 40px 200px;
@@ -64,11 +90,13 @@ h1{
     justify-content: space-between;
     color: #FFFF;
 }
+
 .pie1 p{
     width: 450px;
     height: 88px;
     text-align: left;
 }
+
 .pie1 h2{
     width: 450px;
     height: 88px;
@@ -86,14 +114,34 @@ footer{
     width: 100vw;
 }
 
+footer div{
+    padding-bottom: 50px;
+}
+
+.suscription{
+    padding-top: 40px;
+}
+
+.suscription form input{
+    border: 0px;
+    border-radius: 20px;
+    height: 42px;
+    width: 300px;
+}
+
+.suscription form button{
+    border: 0px;
+    width: 63px;
+}
+
 .mapa_sitio{
+    align-content: space-around;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     height: 7em;
-    align-content: space-around;
-    width: 80vw;
     line-height: 28px;
+    width: 80vw;
 }
 
 .red_social{
@@ -102,22 +150,9 @@ footer{
     width: 100vw;
 }
 
-footer div{
-    padding-bottom: 50px;
+.copyright{
+    color: #8C8C94;
 }
 
-.copyright{color: #8C8C94;}
+/*Responsive*/
 
-.suscription{
-    padding-top: 40px;
-}
-
-.suscription form input{
-    height: 42px;
-    width: 300px;
-    border-radius: 20px;
-}
-
-.suscription form button{
-    width: 63px;
-}
