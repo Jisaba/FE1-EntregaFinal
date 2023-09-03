@@ -163,7 +163,25 @@ article p{
 
 .seccion5{
     background-color: #8B48BF;
+    display: flex;
+    justify-content: space-between;
+    height: 224px;
+    align-items: center;
+}
 
+.seccion5 h2{
+    position: relative;
+    font-size: 40px;
+    color: white;
+    width: 400px;
+    left: 165px;
+}
+
+.seccion5 button{
+    position: relative;
+    right: 200px;
+    background-color: white;
+    color: #8B48BF;
 }
 
 /*Elementos del footer - Mobile first*/
