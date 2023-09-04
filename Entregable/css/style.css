@@ -7,21 +7,21 @@
 /*Header*/
 
 header{
-    padding: 65px 165px ;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 165px ;
+    text-align: center;
 }
 
 .nav_sitio{
-    list-style: none;
     float: right;
+    list-style: none;
 }
 
 nav ul{
-    list-style: none;
     display: flex;
+    list-style: none;
     justify-content: space-around;
     width: 400px;
 }
@@ -32,8 +32,8 @@ nav ul li{
 }
 
 .items-nav{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 .items-nav:hover{
@@ -55,19 +55,19 @@ button{
 /*Sección 1*/
 
 .seccion1{
-    padding: 100px 180px;
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 100px 180px;
 }
 
 .seccion1 div{
-    width: 450px;
-    height: 400px;  
-    text-align: right;
-    display: grid;
     align-items: center;
+    display: grid;
+    height: 400px;  
     justify-items: right;
+    text-align: right;
+    width: 450px;
 }
 
 h1{
@@ -86,38 +86,70 @@ h1{
 
 .seccion2{
     background-color: #8B48BF;
-    padding: 40px 200px;
     display: flex;
-    justify-content: space-between;
     color: #FFFF;
+    justify-content: space-between;
+    padding: 40px 200px;
 }
 
 .seccion2 p{
-    width: 450px;
     height: 88px;
     text-align: left;
+    width: 450px;
 }
 
 .seccion2 h2{
-    width: 450px;
     height: 88px;
     font-size: 36px;
+    width: 450px;
 }
 
 /*Sección 3*/
 
+.seccion3{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0px;
+}
 
+.seccion3 article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.seccion3 span{
+    align-items: center;
+    background-color: #8B48BF;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    height: 43px;
+    justify-content: center;
+    width: 70px;
+}
+
+.seccion3 div{
+    height: 162px;
+    width: 437px;
+}
 
 /*Sección 4*/
 
 .seccion4{
-    margin-top: 100px;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-top: 100px;
 }
 
 .seccion4 h2{
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 40px;
 }
 
@@ -128,31 +160,41 @@ h1{
 }
 
 .seccion4 div article{
-    height: 254px;
-    width: 445px;
+    align-items: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    height: 250px;
     justify-content: end;
+    width: 445px;
 }
 
 article h3{
-    padding-top: 20px;
+    color: #3F4868;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 20px;
 }
 
 article p{
-    padding: 18px 0px;
+    color: #B9B9C1;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 19px 5px;
+    text-align: center;
 }
 
 .rectangulo{
     background-color: #FAFAFA;
-    height: 219px;
-    width: 445px;
-    position: absolute;
-    z-index: -1;
     bottom: 0px;
+    height: 218px;
+    position: absolute;
+    width: 445px;
+    z-index: -1;
 }
 
 .seccion4 button{
@@ -162,26 +204,26 @@ article p{
 /*Sección 5*/
 
 .seccion5{
+    align-items: center;
     background-color: #8B48BF;
     display: flex;
-    justify-content: space-between;
     height: 224px;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .seccion5 h2{
-    position: relative;
-    font-size: 40px;
     color: white;
-    width: 400px;
+    font-size: 40px;
     left: 165px;
+    position: relative;
+    width: 400px;
 }
 
 .seccion5 button{
-    position: relative;
-    right: 200px;
     background-color: white;
     color: #8B48BF;
+    position: relative;
+    right: 200px;
 }
 
 /*Elementos del footer - Mobile first*/
@@ -228,7 +270,7 @@ footer div{
 .red_social{
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
 }
 
 .copyright{
@@ -237,3 +279,7 @@ footer div{
 
 /*Responsive*/
 
+@media (min-width: 769px){
+    footer{
+    }
+}
