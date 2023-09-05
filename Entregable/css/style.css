@@ -234,51 +234,67 @@ article p{
 
 footer{
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: #1E1E26;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 40px 50px;
 }
 
-footer div{
-    padding: 25px 0px;
+.footer_section{
+    margin: 12.5px 0px;
+    padding: 10px;
 }
 
-.suscription{
-    padding-top: 40px;
-}
-
-.suscription form input{
+#suscription input{
     border: 0px;
     border-radius: 20px;
-    height: 42px;
-    width: 300px;
+    height: 44px;
+    padding: 10px;
+    width: 45vw;
 }
 
-.suscription form button{
+#suscription button{
+    background-color: #8B48BF;
     border: 0px;
-    width: 60px;
+    border-radius: 20px;
+    color: white;
+    height: 42px;
+    padding: 10px;
+    width: 63px;
 }
 
-.mapa_sitio{
-    align-content: space-around;
+#mapa_sitio ul{
+    align-content: space-between;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 7em;
-    line-height: 28px;
-    width: 80%;
+    height: 120px;
+    width: 55vw;
 }
 
-.red_social{
+#mapa_sitio li{
+    padding-bottom: 7px;
+}
+
+.item_mapa{
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+#redes_sociales ul{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+    width: 65vw;
 }
 
-.copyright{
+#copyright{
     color: #8C8C94;
+    font-size: 12.5px;
+    font-weight: 500;
+    margin-bottom: 0px;
 }
 
 /*Responsive*/
@@ -295,30 +311,39 @@ footer div{
 
     /*Footer*/
     footer{
-    justify-content: center;
+        flex-wrap: wrap;
         height: 250px;
-    flex-wrap: wrap;
     }
-    .logo_footer{
+
+    #logo_footer{
         order: 1;
     }
-    .red_social{
+
+    #redes_sociales{
         order: 2;
-        width: auto;
     }
-    .red_social img{
-        margin: 0px 8px;
+
+    #redes_sociales ul{
+        width: 174px;
     }
-    .mapa{
+
+    #mapa_sitio{
         order: 3;
     }
-    .suscription{
+
+    #mapa_sitio ul{
+        width: 30vw;
+    }
+
+    #suscription{
         order: 4;
     }
-    .suscription form  input{
+
+    #suscription input{
         width: 200px;
     }
-    .copyright{
+
+    #copyright{
         order: 5;
     }
 }
