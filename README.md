@@ -2,7 +2,7 @@
 
 ## José Israel Sáchez Balderas
     - Estructura de las carpetas
-    - Footer en html y css
+    - Footer responsive en html y css
     - Comentarios para organizar el documento
     - Sección 4 html y css
     - Sección 5 html y css

@@ -238,7 +238,7 @@ footer{
 }
 
 footer div{
-    padding-bottom: 50px;
+    padding: 25px 0px;
 }
 
 .suscription{
@@ -254,7 +254,7 @@ footer div{
 
 .suscription form button{
     border: 0px;
-    width: 63px;
+    width: 60px;
 }
 
 .mapa_sitio{
@@ -264,7 +264,7 @@ footer div{
     flex-wrap: wrap;
     height: 7em;
     line-height: 28px;
-    width: 80vw;
+    width: 80%;
 }
 
 .red_social{
@@ -278,8 +278,36 @@ footer div{
 }
 
 /*Responsive*/
+/*First Mobile*/
+
+/*Laptop en adelante*/
 
 @media (min-width: 769px){
     footer{
+    justify-content: center;
+        height: 250px;
+    flex-wrap: wrap;
+    }
+    .logo_footer{
+        order: 1;
+    }
+    .red_social{
+        order: 2;
+        width: auto;
+    }
+    .red_social img{
+        margin: 0px 8px;
+    }
+    .mapa{
+        order: 3;
+    }
+    .suscription{
+        order: 4;
+    }
+    .suscription form  input{
+        width: 200px;
+    }
+    .copyright{
+        order: 5;
     }
 }
