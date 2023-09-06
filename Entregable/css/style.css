@@ -152,71 +152,73 @@ h1{
     width: 437px;
 }
 
-/*Sección 4*/
+/*Sección 4 - Mobile first*/
 
-.seccion4{
+#seccion4{
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
 }
 
-.seccion4 h2{
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 40px;
-}
-
-.articulos{
-    display: flex;
-    margin-top: 75px;
-    position: relative;
-}
-
-.seccion4 div article{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 250px;
-    justify-content: end;
-    width: 445px;
-}
-
-article h3{
-    color: #3F4868;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 16px;
-    font-style: normal;
+#seccion4 h2{
+    font-size: 39px;
     font-weight: 700;
-    padding-top: 20px;
-}
-
-article p{
-    color: #B9B9C1;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 25px;
-    padding: 19px 5px;
+    padding-top: 58px;
+    padding-bottom: 59px;
     text-align: center;
 }
 
-.rectangulo{
+#articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#seccion4 .articulo_oculto{
+    display: none;
+}
+
+#seccion4 article{
+    align-items: center;
     background-color: #FAFAFA;
-    bottom: 0px;
-    height: 218px;
+    display: flex;
+    flex-direction: column;
+    height: 219px;
+    justify-content: flex-end;
+    margin-top: 50px;
+    position: relative;
+    width: 90vw;
+}
+
+#seccion4 article img{
     position: absolute;
-    width: 445px;
-    z-index: -1;
+    top: -40px;
 }
 
-.seccion4 button{
-    margin: 50px 0px;
+#seccion4 article h3{
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 4px;
 }
 
-.articulos .sanyo{display: none;}
+#seccion4 article p{
+    color: #B9B9C1;
+    font-weight: 500;
+    line-height: 155%;
+    padding: 17px 21px;
+    text-align: center;
+}
 
-.articulos .navarro{display: none;}
+#seccion4 button{
+    background-color: #8B48BF;
+    border: 0px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    height: 44px;
+    margin-bottom: 58px;
+    margin-top: 45px;
+    width: 134px;
+}
 
 /*Sección 5 - Mobile first*/
 
@@ -352,9 +354,21 @@ footer{
 
     /*Sección 4*/
 
-    .articulos .navarro{display: block;}
+    #seccion4 .articulo_oculto{
+        display: inline-flex;
+    }
 
-    .articulos .sanyo{display: block;}
+    #seccion4 article{
+        width: 445px;
+    }
+
+    #seccion4 h2{
+        padding-top: 97px;
+    }
+
+    #seccion4 button{
+        margin-bottom: 180px;
+    }
 
     /*Sección 5*/
     
