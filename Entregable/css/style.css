@@ -52,6 +52,10 @@ button{
 
 /*Boby*/
 
+main{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
 /*Sección 1*/
 
 .seccion1{
@@ -205,29 +209,33 @@ article p{
 
 .articulos .navarro{display: none;}
 
-/*Sección 5*/
+/*Sección 5 - Mobile first*/
 
-.seccion5{
+#seccion5{
     align-items: center;
-    background-color: #8B48BF;
+    background-color: #3CDDF3;
     display: flex;
-    height: 224px;
+    flex-direction: column;
+    height: 366px;
     justify-content: space-between;
+    padding: 40px 50px;
 }
 
-.seccion5 h2{
+#seccion5 h2{
     color: white;
     font-size: 40px;
-    left: 165px;
-    position: relative;
-    width: 400px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
 }
 
-.seccion5 button{
-    background-color: white;
-    color: #8B48BF;
-    position: relative;
-    right: 200px;
+#seccion5 button{
+    background-color: #232C50;
+    border: 0px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    height: 44px;
+    width: 134px;
 }
 
 /*Elementos del footer - Mobile first*/
@@ -308,6 +316,27 @@ footer{
     .articulos .navarro{display: block;}
 
     .articulos .sanyo{display: block;}
+
+    /*Sección 5*/
+    
+    #seccion5{
+        background-color: #8B48BF;
+        flex-direction: row;
+        height: 224px;
+    }
+
+    #seccion5 h2{
+        text-align: left;
+    }
+
+    .quitar_br{
+        display: none;
+    }
+    
+    #seccion5 button{
+        background-color: #FFF;
+        color: #8B48BF;
+    }
 
     /*Footer*/
     footer{
