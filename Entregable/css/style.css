@@ -86,26 +86,35 @@ h1{
     margin-bottom: 20px;
 }
 
-/*Sección 2*/
+/*Sección 2 - Mobile first*/
 
-.seccion2{
-    background-color: #8B48BF;
+#seccion2{
+    background-color: #3CDDF3;
+    color: #FFF;
     display: flex;
-    color: #FFFF;
+    flex-direction: column;
+    height: 306px;
     justify-content: space-between;
-    padding: 40px 200px;
+    padding: 40px 20px;
 }
 
-.seccion2 p{
-    height: 88px;
-    text-align: left;
-    width: 450px;
-}
-
-.seccion2 h2{
-    height: 88px;
+#seccion2 h2{
     font-size: 36px;
-    width: 450px;
+    font-weight: 700;
+    line-height: 115%;
+}
+
+#seccion2 p{
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.computadora_br{
+    display: none;
+}
+
+#p_computadora{
+    display: none;
 }
 
 /*Sección 3*/
@@ -311,6 +320,36 @@ footer{
 /*Laptop en adelante*/
 
 @media (min-width: 769px){
+    /*Sección 2*/
+    
+    #seccion2{
+        align-items: center;
+        background-color: #8B48BF;
+        flex-direction: row;
+        height: 168px;
+        justify-content: space-around;
+    }
+
+    #seccion2 p{
+        width: 33%;
+    }
+
+    #seccion2 .quitar_br{
+        display: none;
+    }
+    
+    .computadora_br{
+        display: block;
+    }
+
+    #p_computadora{
+        display: block;
+    }
+
+    #p_mobil{
+        display: none;
+    }
+
     /*Sección 4*/
 
     .articulos .navarro{display: block;}
