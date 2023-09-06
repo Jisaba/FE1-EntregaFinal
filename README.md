@@ -3,8 +3,9 @@
 ## José Israel Sáchez Balderas
     - Estructura de las carpetas
     - Comentarios para organizar el documento
+    - Sección 1 responsive
     - Sección 2 responsive
-    - Sección 3 html y css
+    - Sección 3 responsive, html y css
     - Sección 4 responsive, html y css
     - Sección 5 responsive, html y css
     - Footer responsive, html y css

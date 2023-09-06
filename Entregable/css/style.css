@@ -56,34 +56,38 @@ main{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-/*Sección 1*/
+/*Sección 1 - Mobile first*/
 
-.seccion1{
+#seccion1{
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    padding: 100px 180px;
+    flex-direction: column;
+    margin: 40px;
 }
 
-.seccion1 div{
-    align-items: center;
-    display: grid;
-    height: 400px;  
-    justify-items: right;
+#seccion1 img{
+    width: 100%;
+}
+
+#seccion1 div{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
     text-align: right;
-    width: 450px;
 }
 
-h1{
+#seccion1 h1{
+    color: #232C50;
     font-size: 50px;
-    line-height: 50px;
-    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 115%;
+    margin-bottom: 28px;
 }
 
-.seccion1 div h4{
-    font-size: 1rem;
-    line-height: 26px;
-    margin-bottom: 20px;
+#seccion1 p{
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 28px;
 }
 
 /*Sección 2 - Mobile first*/
@@ -264,7 +268,7 @@ h1{
     width: 134px;
 }
 
-/*Elementos del footer - Mobile first*/
+/*Footer - Mobile first*/
 
 footer{
     align-items: center;
@@ -332,11 +336,28 @@ footer{
 }
 
 /*Responsive*/
-/*First Mobile*/
+/*Metodologia First Mobile*/
 
 /*Laptop en adelante*/
 
 @media (min-width: 769px){
+    
+    /*Sección 1*/
+
+    #seccion1{
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 90px 175px;
+    }
+
+    #seccion1 img{
+        width: 45%;
+    }
+
+    #seccion1 div{
+        width: 45%;
+    }
+
     /*Sección 2*/
     
     #seccion2{
