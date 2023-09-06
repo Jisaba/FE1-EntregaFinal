@@ -117,39 +117,54 @@ h1{
     display: none;
 }
 
-/*Sección 3*/
+/*Sección 3 - Mobile first*/
 
-.seccion3{
-    background-color: #FAFAFA;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 40px 0px;
+#seccion3{
+    padding-top: 65px
 }
 
-.seccion3 article{
+#seccion3 article{
+    align-items:end;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
 }
 
-.seccion3 span{
+#seccion3 div{
     align-items: center;
     background-color: #8B48BF;
-    border-radius: 20px;
-    color: white;
+    border: 0px;
+    border-radius: 225px;
+    color: #FFFFFF;
     display: flex;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-style: normal;
     font-weight: 700;
     height: 43px;
     justify-content: center;
+    position: absolute;
+    right: 80%;
+    top: 0px;
     width: 70px;
 }
 
-.seccion3 div{
-    height: 162px;
-    width: 437px;
+#seccion3 h3{
+    align-items: center;
+    background-color: rgba(139,72,191,0.3);
+    color: #323851;
+    display: flex;
+    font-weight: 700;
+    height: 43px;
+    justify-content: left;
+    padding: 0px 40px;
+    text-align: center;
+    width: 85vw;
+}
+
+#seccion3 p{
+    color: #B8B2B7;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 20px 10vw;
+    padding: 10px;
 }
 
 /*Sección 4 - Mobile first*/
@@ -350,6 +365,43 @@ footer{
 
     #p_mobil{
         display: none;
+    }
+
+    /*Sección 3*/
+
+    #seccion3{
+        background-color: #FAFAFA;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 30px;
+        padding-top: 40px;
+    }
+
+    #seccion3 article{
+        align-items: flex-start;
+        height: 162px;
+        margin: 0px 50px;
+        width: 530px;
+    }
+
+    #seccion3 div{
+        left: 0px;
+    }
+
+    #seccion3 h3{
+        background-color: transparent;
+        height: 43px;
+        margin-left: 93px;
+        padding: 0px;
+        width: auto;
+    }
+
+    #seccion3 p{
+        height: auto;
+        margin: 0;
+        margin-left: 93px;
+        padding: 0;
     }
 
     /*Sección 4*/
