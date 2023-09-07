@@ -1,0 +1,543 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header{
+    align-items: center;
+    display: flex;
+    height: 140px;
+    justify-content: space-between;
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.nav_sitio{
+    display: none;
+    float: right;
+    list-style: none;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 400px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.items-nav{
+    color: black;
+    text-decoration: none;
+}
+
+.items-nav:hover{
+    opacity: 50%;
+}
+
+header button{
+    background-color: #8B48BF;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    display: none;
+    height: 44px;
+    width: 134px;
+}
+
+#nav_mobil{
+    width: 40px;
+}
+
+/*Boby*/
+
+main{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/*Sección 1 - Mobile first*/
+
+#seccion1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+#seccion1 img{
+    width: 100%;
+}
+
+#seccion1 div{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+#seccion1 h1{
+    color: #232C50;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 115%;
+    margin-bottom: 28px;
+}
+
+#seccion1 p{
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 28px;
+}
+
+#seccion1 button{
+    background-color: #8B48BF;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    height: 44px;
+    width: 134px;
+}
+
+/*Sección 2 - Mobile first*/
+
+#seccion2{
+    background-color: #3CDDF3;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    height: 306px;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+#seccion2 h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 115%;
+}
+
+#seccion2 p{
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.computadora_br{
+    display: none;
+}
+
+#p_computadora{
+    display: none;
+}
+
+/*Sección 3 - Mobile first*/
+
+#seccion3{
+    padding-top: 65px
+}
+
+#seccion3 article{
+    align-items:end;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#seccion3 div{
+    align-items: center;
+    background-color: #8B48BF;
+    border: 0px;
+    border-radius: 225px;
+    color: #FFFFFF;
+    display: flex;
+    font-weight: 700;
+    height: 43px;
+    justify-content: center;
+    position: absolute;
+    right: 80%;
+    top: 0px;
+    width: 70px;
+}
+
+#seccion3 h3{
+    align-items: center;
+    background-color: rgba(139,72,191,0.3);
+    color: #323851;
+    display: flex;
+    font-weight: 700;
+    height: 43px;
+    justify-content: left;
+    padding: 0px 40px;
+    text-align: center;
+    width: 85vw;
+}
+
+#seccion3 p{
+    color: #B8B2B7;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 20px 10vw;
+    padding: 10px;
+}
+
+/*Sección 4 - Mobile first*/
+
+#seccion4{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#seccion4 h2{
+    font-size: 39px;
+    font-weight: 700;
+    padding-top: 58px;
+    padding-bottom: 59px;
+    text-align: center;
+}
+
+#articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#seccion4 .articulo_oculto{
+    display: none;
+}
+
+#seccion4 article{
+    align-items: center;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    height: 219px;
+    justify-content: flex-end;
+    margin-top: 50px;
+    position: relative;
+    width: 90vw;
+}
+
+#seccion4 article img{
+    position: absolute;
+    top: -40px;
+}
+
+#seccion4 article h3{
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+#seccion4 article p{
+    color: #B9B9C1;
+    font-weight: 500;
+    line-height: 155%;
+    padding: 17px 21px;
+    text-align: center;
+}
+
+#seccion4 button{
+    background-color: #8B48BF;
+    border: 0px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 44px;
+    margin-bottom: 58px;
+    margin-top: 45px;
+    width: 134px;
+}
+
+/*Sección 5 - Mobile first*/
+
+#seccion5{
+    align-items: center;
+    background-color: #3CDDF3;
+    display: flex;
+    flex-direction: column;
+    height: 366px;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+
+#seccion5 h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+#seccion5 button{
+    background-color: #232C50;
+    border: 0px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 44px;
+    width: 134px;
+}
+
+/*Footer - Mobile first*/
+
+footer{
+    align-items: center;
+    background-color: #1E1E26;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 40px 50px;
+}
+
+.footer_section{
+    margin: 12.5px 0px;
+    padding: 10px;
+}
+
+#suscription input{
+    border: 0px;
+    border-radius: 20px;
+    height: 44px;
+    padding: 10px;
+    width: 45vw;
+}
+
+#suscription button{
+    background-color: #8B48BF;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    height: 42px;
+    padding: 10px;
+    width: 63px;
+}
+
+#mapa_sitio ul{
+    align-content: space-between;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 55vw;
+}
+
+#mapa_sitio li{
+    padding-bottom: 7px;
+}
+
+.item_mapa{
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+#redes_sociales ul{
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+}
+
+#copyright{
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+/*Responsive*/
+/*Metodologia First Mobile*/
+
+/*Laptop en adelante*/
+
+@media (min-width: 769px){
+    
+    /*Header*/
+
+    header{
+        height: auto;
+        padding: 65px 165px;
+    }
+    
+    .nav_sitio{
+        display: block;
+    }
+
+    header button{
+        display: block;
+    }
+
+    #nav_mobil{
+        display: none;
+    }
+
+    /*Sección 1*/
+
+    #seccion1{
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 90px 175px;
+    }
+
+    #seccion1 img{
+        width: 45%;
+    }
+
+    #seccion1 div{
+        width: 45%;
+    }
+
+    /*Sección 2*/
+    
+    #seccion2{
+        align-items: center;
+        background-color: #8B48BF;
+        flex-direction: row;
+        height: 168px;
+        justify-content: space-around;
+    }
+
+    #seccion2 p{
+        width: 33%;
+    }
+
+    #seccion2 .quitar_br{
+        display: none;
+    }
+    
+    .computadora_br{
+        display: block;
+    }
+
+    #p_computadora{
+        display: block;
+    }
+
+    #p_mobil{
+        display: none;
+    }
+
+    /*Sección 3*/
+
+    #seccion3{
+        background-color: #FAFAFA;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 30px;
+        padding-top: 40px;
+    }
+
+    #seccion3 article{
+        align-items: flex-start;
+        height: 162px;
+        margin: 0px 50px;
+        width: 530px;
+    }
+
+    #seccion3 div{
+        left: 0px;
+    }
+
+    #seccion3 h3{
+        background-color: transparent;
+        height: 43px;
+        margin-left: 93px;
+        padding: 0px;
+        width: auto;
+    }
+
+    #seccion3 p{
+        height: auto;
+        margin: 0;
+        margin-left: 93px;
+        padding: 0;
+    }
+
+    /*Sección 4*/
+
+    #seccion4 .articulo_oculto{
+        display: inline-flex;
+    }
+
+    #seccion4 article{
+        width: 445px;
+    }
+
+    #seccion4 h2{
+        padding-top: 97px;
+    }
+
+    #seccion4 button{
+        margin-bottom: 180px;
+    }
+
+    /*Sección 5*/
+    
+    #seccion5{
+        background-color: #8B48BF;
+        flex-direction: row;
+        height: 224px;
+    }
+
+    #seccion5 h2{
+        text-align: left;
+    }
+
+    .quitar_br{
+        display: none;
+    }
+    
+    #seccion5 button{
+        background-color: #FFF;
+        color: #8B48BF;
+    }
+
+    /*Footer*/
+    footer{
+        flex-wrap: wrap;
+        height: 250px;
+    }
+
+    #logo_footer{
+        order: 1;
+    }
+
+    #redes_sociales{
+        order: 2;
+    }
+
+    #redes_sociales ul{
+        width: 174px;
+    }
+
+    #mapa_sitio{
+        order: 3;
+    }
+
+    #mapa_sitio ul{
+        width: 30vw;
+    }
+
+    #suscription{
+        order: 4;
+    }
+
+    #suscription input{
+        width: 200px;
+    }
+
+    #copyright{
+        order: 5;
+    }
+}
