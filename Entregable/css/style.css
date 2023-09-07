@@ -9,24 +9,26 @@
 header{
     align-items: center;
     display: flex;
+    height: 140px;
     justify-content: space-between;
-    padding: 65px 165px ;
+    padding: 40px 50px;
     text-align: center;
 }
 
 .nav_sitio{
+    display: none;
     float: right;
     list-style: none;
 }
 
-nav ul{
+header nav ul{
     display: flex;
     list-style: none;
     justify-content: space-around;
     width: 400px;
 }
 
-nav ul li{
+header nav ul li{
     display: inline-block;
     margin: 0px 5px;
 }
@@ -40,14 +42,19 @@ nav ul li{
     opacity: 50%;
 }
 
-button{
+header button{
     background-color: #8B48BF;
-    border: 1px solid white;
+    border: 0;
     border-radius: 50px;
     color: white;
     cursor: pointer;
+    display: none;
     height: 44px;
     width: 134px;
+}
+
+#nav_mobil{
+    width: 40px;
 }
 
 /*Boby*/
@@ -88,6 +95,16 @@ main{
     font-weight: 500;
     line-height: 150%;
     margin-bottom: 28px;
+}
+
+#seccion1 button{
+    background-color: #8B48BF;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    height: 44px;
+    width: 134px;
 }
 
 /*Sección 2 - Mobile first*/
@@ -233,6 +250,7 @@ main{
     border: 0px;
     border-radius: 25px;
     color: #FFFFFF;
+    cursor: pointer;
     height: 44px;
     margin-bottom: 58px;
     margin-top: 45px;
@@ -264,6 +282,7 @@ main{
     border: 0px;
     border-radius: 25px;
     color: #FFFFFF;
+    cursor: pointer;
     height: 44px;
     width: 134px;
 }
@@ -297,6 +316,7 @@ footer{
     border: 0px;
     border-radius: 20px;
     color: white;
+    cursor: pointer;
     height: 42px;
     padding: 10px;
     width: 63px;
@@ -342,6 +362,25 @@ footer{
 
 @media (min-width: 769px){
     
+    /*Header*/
+
+    header{
+        height: auto;
+        padding: 65px 165px;
+    }
+    
+    .nav_sitio{
+        display: block;
+    }
+
+    header button{
+        display: block;
+    }
+
+    #nav_mobil{
+        display: none;
+    }
+
     /*Sección 1*/
 
     #seccion1{
