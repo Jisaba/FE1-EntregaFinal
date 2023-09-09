@@ -15,4 +15,4 @@
     - Header html y css
     - Sección 1 html y css
     - Sección 2 html y css
-    - check entregaable
+    - check entregable
