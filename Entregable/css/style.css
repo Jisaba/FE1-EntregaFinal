@@ -381,6 +381,11 @@ footer{
         display: none;
     }
 
+    #nav, #nav-check{
+        display: none;
+        border-radius: 5px;
+    }
+
     /*Sección 1*/
 
     #seccion1{
@@ -540,4 +545,78 @@ footer{
     #copyright{
         order: 5;
     }
+    
+}
+@media  (max-width: 769px) {
+
+    #nav-check:not(:checked) ~ nav{
+        display: none;
+    }
+
+    #nav-check:checked ~ nav{
+        display: block;
+    }
+
+    #nav {
+        display: block;
+        color: #3e3e3e;
+        background-color: #FFFFFF;
+        font-size: 2rem;
+        font-weight: bold;
+        position: absolute;
+        right: 0.5em;
+        z-index: 9999;
+    }
+
+    #nav:hover{
+        
+        background-color: #3e3e3e;
+        color: #FFFFFF;
+    }
+
+    #nav-cerrar{
+        display: none;
+    }
+    #nav-check:checked ~ label #nav-abrir{
+        display: none;
+    }
+
+    #nav-check:checked ~ label #nav-cerrar{
+        display: block;
+    }
+    header{
+        padding: 10px 10px;
+    }
+
+    header button {
+        display: none;
+    }
+
+    header nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50%;
+        width: 100%;
+        background-color: #1E1E26;
+        padding: 0.5em 1.5em;
+        opacity: 0.8;
+        color: #3CDDF3;
+        font-size: 1.5rem;
+    }
+    header nav ul.nav_sitio a{
+        color: #3CDDF3;
+    }
+
+    header nav ul.nav_sitio, header nav ul.nav_sitio li {
+        display: block;
+        text-align: right;
+        margin-right: 1rem;
+    }
+
+    #nav-check{
+        display: none;
+        
+    }
+
 }
