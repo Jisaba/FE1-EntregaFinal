@@ -11,6 +11,8 @@
     - Sección 5 responsive, html y css
     - Footer responsive, html y css
 ## Bryan Varela
+    - Menu Nav responsive
     - Header html y css
     - Sección 1 html y css
     - Sección 2 html y css
+    - check entregaable
